@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Elements</title>
+    <style>
+      h2 {
+        color: darkkhaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Other H2</h2>
+    <template>
+      <h2>Hi again</h2>
+      <div>
+        <p>This no shower</p>
+      </div>
+    </template>
+    <my-element title="I'm a title" image="https://www.latercera.com/resizer/Am6Tr2ws8JnL4CHLfU_Humpr56Q=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/XMJRWZH5N5CBXPL67NAKBGXFNI.jpg"></my-element>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
+
+<!-- Activate shadowDOM
+  Inspector -> setting -> Elements -> active shadowDOM
+-->
